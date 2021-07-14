@@ -52,6 +52,7 @@ blockquote blockquote { margin-left: 0; margin-right: 0; }
 :any-link:hover { text-decoration-thickness: 2px; text-decoration-skip-ink: none; }
 :any-link:active { color: darkred; }
 
+/*
 @media (prefers-color-scheme: dark) {
   html, html.home { background: #333; color: white; }
   h1, h2, h3, th, strong, html code { color: #eee; }
@@ -67,7 +68,7 @@ blockquote blockquote { margin-left: 0; margin-right: 0; }
   #book-cover-shadow feDropShadow { flood-opacity: 1; }
   img[src$="/sample-ruby-ja.png"] { mix-blend-mode: color-dodge; filter: invert(); }
 }
-
+*/
 .visualNote {
    width: 96%;
    max-width: 96%;

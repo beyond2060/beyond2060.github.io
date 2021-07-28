@@ -52,24 +52,29 @@ blockquote blockquote { margin-left: 0; margin-right: 0; }
 :any-link:hover { text-decoration-thickness: 2px; text-decoration-skip-ink: none; }
 :any-link:active { color: darkred; }
 
-/*
-@media (prefers-color-scheme: dark) {
-  html, html.home { background: #333; color: white; }
-  h1, h2, h3, th, strong, html code { color: #eee; }
-  code.language-html { background-color: #222; color: #ddd; }
-  blockquote { background-color: #3e3e3e; }
-  ul.toc > li { border-bottom-color: gray; }
-  summary { color: darkseagreen; }
-  summary, nav, nav.next, blockquote { border-color: #578057; }
-  :link { color: gold; }
-  :visited { color: #dfa920; }
-  :any-link { text-decoration-color: gray; }
-  :any-link:active { color: pink; }
-  #book-cover-shadow feDropShadow { flood-opacity: 1; }
-  img[src$="/sample-ruby-ja.png"] { mix-blend-mode: color-dodge; filter: invert(); }
+.selected-text-file-an-issue { position: fixed; bottom: 0; right: 0; padding: 0.25em; color: inherit !important; }
+.octicon-issue-opened { fill: currentColor; vertical-align: middle; }
+
+
+
+h3 {
+  margin-top:0;
 }
-*/
-.visualNote {
-   width: 96%;
-   max-width: 96%;
+
+.logo {
+  width:200px;
+  float:right;
 }
+
+.otherLogo {
+  width:200px;
+  padding-left:50px;
+  padding-bottom:50px;
+}
+
+.smaller {
+  width:150px;
+  padding-left:75px;
+}
+
+summary:focus {outline:0;}

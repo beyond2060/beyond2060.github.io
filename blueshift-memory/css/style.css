@@ -2203,3 +2203,7 @@ address span i,
 #page-news a:focus{
     text-decoration: none;
 }    
+
+.tp-caption {
+	font-weight:bold;
+}
